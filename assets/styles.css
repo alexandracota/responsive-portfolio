@@ -1,0 +1,155 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-image: url("assets/images/ep_naturalblack.png");
+    background-color: #cccccc;
+
+}
+
+header {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 40px;
+	margin-bottom: 20px;
+	background: white;
+	height: 100px;
+}
+
+#name {
+	position: relative;
+ 	top: 20px;
+ 	right: -60px;
+	background: #4aaaa5;
+	color: white;
+	padding: 20px;
+	width: 175px;
+	margin-bottom: 0 auto;
+}
+
+div {
+	border: 2px;
+	margin: 0 auto 60 auto;
+	padding: 10px;
+	width: 900;
+}
+
+/* Links */
+a {
+	color: gray;
+	font-family: "Arial", "Helvetica New", Helvetica, sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+a.nav:link {
+	background-color: white;
+	color: black;
+	display: inline-block;
+	padding: 15px;
+	text-align: center;
+	width: 90px;
+}
+
+/* Nav Bar */
+li.nav {
+	display: inline-block;
+	float: right;
+}
+
+ul.nav {
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+
+/* About Me */
+h2 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 40px;
+}
+
+#image {
+	float:left;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+#main-content,
+#sidebar,
+#footer {
+	font-family: "Arial", "Helvetica New", Helvetica, sans-serif;
+	line-height: 1.5;	
+}
+
+#main-content {
+	position: relative;
+	width: /*650px,*/ 50%;
+	background: white;
+	padding: 40px;
+	border: 20px;
+	margin-left: 60px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+h3 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 30px;
+}
+
+#sidebar {
+	position: relative;
+	background: white;
+	width: /*270px,*/ 30%;
+	float: left;
+	margin-left: 20px;
+	border: 20px;
+	padding: 20px;
+}
+
+.site-footer {
+	position: absolute;
+	bottom: 0;
+	color: white;
+	background: gray;
+	font-size: 24px;
+	height: 20px;
+	width: 100%;
+	overflow: hidden;
+	margin: 20 auto;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+
+@media screen and (max-width: 980px) {
+	#container {
+		width:100%;
+	}
+	#main-content {
+		width: 70%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#main-content {
+		width: 100%;
+	}
+	#side-bar {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#container {
+		width: 640px;
+	}
+}
